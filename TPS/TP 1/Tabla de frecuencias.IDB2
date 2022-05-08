@@ -1,0 +1,224 @@
+Version=4
+DecimalSeparator=(,)
+DateSeparator=(/)
+ShortDateFormat=d/M/yyyy
+LongDateFormat=dddd, d 'de' MMMM 'de' yyyy
+Cols=9
+Rows=8
+Font.Name=Arial
+Font.Size=13
+DefaultRowHeight=24
+ClientWidth=866
+ClientHeight=460
+Grid.left=165
+Grid.top=-13
+font.style.fsbold=0
+font.style.fsItalic=0
+font.style.fsUnderline=0
+font.style.fsStrikeOut=0
+Barra.Herramientas.visible=1
+DataDescription_top=0
+DataDescription_left=0
+DataDescription_width=0
+DataDescription_height=0
+{columns data}
+Col.name=Variable
+Col.description=
+Col.data.type=3
+Col.decimals=0
+Col.alignment=0
+Col.width=92
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=Clase
+Col.description=
+Col.data.type=1
+Col.decimals=0
+Col.alignment=1
+Col.width=53
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=LI
+Col.description=
+Col.data.type=1
+Col.decimals=2
+Col.alignment=1
+Col.width=83
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=LS
+Col.description=
+Col.data.type=1
+Col.decimals=2
+Col.alignment=1
+Col.width=83
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=MC
+Col.description=
+Col.data.type=1
+Col.decimals=2
+Col.alignment=1
+Col.width=83
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=FA
+Col.description=
+Col.data.type=1
+Col.decimals=0
+Col.alignment=1
+Col.width=37
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=FR
+Col.description=
+Col.data.type=1
+Col.decimals=2
+Col.alignment=1
+Col.width=47
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=FAA
+Col.description=
+Col.data.type=1
+Col.decimals=0
+Col.alignment=1
+Col.width=44
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+Col.name=FRA
+Col.description=
+Col.data.type=1
+Col.decimals=2
+Col.alignment=1
+Col.width=47
+Col.formula=
+Col.color=16777215
+Col.visible=1
+Col.protegida=0
+Col.casesensitive=1
+Col.grouplabels=
+{end of column}
+{row data}
+{end row data}
+{block data}
+1
+1
+1
+1
+1
+1
+1
+1
+Cierre BTC
+Cierre BTC
+Cierre BTC
+Cierre BTC
+Cierre BTC
+Cierre BTC
+Cierre BTC
+Cierre BTC
+1
+2
+3
+4
+5
+6
+7
+8
+5182,7
+12584,6875
+19986,675
+27388,6625
+34790,65
+42192,6375
+49594,625
+56996,6125
+12584,6875
+19986,675
+27388,6625
+34790,65
+42192,6375
+49594,625
+56996,6125
+64398,6
+8883,69375
+16285,68125
+23687,66875
+31089,65625
+38491,64375
+45893,63125
+53295,61875
+60697,60625
+41
+8
+2
+9
+20
+22
+7
+13
+0,336065573770492
+0,0655737704918033
+0,0163934426229508
+0,0737704918032787
+0,163934426229508
+0,180327868852459
+0,0573770491803279
+0,10655737704918
+41
+49
+51
+60
+80
+102
+109
+122
+0,336065573770492
+0,401639344262295
+0,418032786885246
+0,491803278688525
+0,655737704918033
+0,836065573770492
+0,89344262295082
+1
