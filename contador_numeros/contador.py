@@ -1,16 +1,16 @@
-from array import array
-from cgitb import text
-from cmath import log
+from openpyxl import Workbook
 from PyEstadistica import prob_estadistica
 
 
-book = Workbook()
+book = Workbook
 sheet = book.active
 
-texto = "10,5 20,2 15,4 11,6 13,8 20,5 14,0 16,5 17,0 12,0 15,4 21,3 22,0 23,1 15,9 16,5 13,0 18,0 16,0 17,3 17,8 19,0 13,4 17,3 14,2 15,0 16,2 19,0 15,5 16,0 "
-#contenido = input('insertar numeros: ')
+texto = ("16.500 – 10.050 – 12.320 – 10.000 – 22.540 – 7.325 – 13.800 – 14.600 –"
++ " 25.000 – 17.085 – 19.000 – 11.900 – 13.760 – 15.075 – 20.210 – 7.280 –"
++ " 21.200 – 23.090 – 24.500 – 15.800 – 5.000 – 13.050 – 21.600 – 17.700 ")
 
-l_numeros = prob_estadistica.crear_lista_numeros(texto)
+
+#print(l_numeros)
 
 # print(len(l_numeros))
 
@@ -20,33 +20,33 @@ l_numeros = prob_estadistica.crear_lista_numeros(texto)
 
 # book.save('tortas.xlsx')
 
-l_numeros_sin_repetir = prob_estadistica.get_lista_numeros_sin_repetidos(l_numeros)
+# l_numeros_sin_repetir = prob_estadistica.get_lista_numeros_sin_repetidos(l_numeros)
 
 
-print()
-l_numeros.sort()
-print(l_numeros)
-print()
+# print()
+# l_numeros.sort()
+# print(l_numeros)
+# print()
 
-rango = prob_estadistica.get_rango_redondeado_de_una_lista(l_numeros, 2)
-cant_intervalos = prob_estadistica.get_cant_intervalos_redondeado_de_una_lista(l_numeros, 2)
-amplitud = prob_estadistica.get_amplitud_intervalos_redondeado_de_una_lista(l_numeros, 1)
-amplitud_sin_redondear = prob_estadistica.get_amplitud_intervalos_de_una_lista(l_numeros)
+# rango = prob_estadistica.get_rango_redondeado_de_una_lista(l_numeros, 2)
+# cant_intervalos = prob_estadistica.get_cant_intervalos_redondeado_de_una_lista(l_numeros, 2)
+# amplitud = prob_estadistica.get_amplitud_intervalos_redondeado_de_una_lista(l_numeros, 1)
+# amplitud_sin_redondear = prob_estadistica.get_amplitud_intervalos_de_una_lista(l_numeros)
 
-print("rango: ", rango)
-print()
-print("cantidad de intervalos: ", cant_intervalos)
-print()
-print("amplitud: ", amplitud)
-print()
-print("amplitud sin redondear: ", amplitud_sin_redondear)
-print()
-
-
-tabla = prob_estadistica.get_tabla_intervalos(l_numeros, amplitud)
+# print("rango: ", rango)
+# print()
+# print("cantidad de intervalos: ", cant_intervalos)
+# print()
+# print("amplitud: ", amplitud)
+# print()
+# print("amplitud sin redondear: ", amplitud_sin_redondear)
+# print()
 
 
+# tabla = prob_estadistica.get_tabla_intervalos(l_numeros, amplitud)
 
-for fila in tabla:
-    print(fila)
+
+
+# for fila in tabla:
+#     print(fila)
 
