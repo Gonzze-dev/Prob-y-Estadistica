@@ -5,17 +5,40 @@ from webbrowser import get
 
 class prob_estadistica:
 
+    def __detectarSeparador(texto):
+        formaNumeros = [ "0", "1", "2", "3", "4", "5", 
+                        "6", "7", "8", "9", ".", ","]
+        separador = ""
+
+        
+        for i in range(0, len(texto)):
+            if((texto[i] not in formaNumeros)
+                or texto[i:i+2] == ", "):
+                    k = i
+
+                    while(texto[k] not in formaNumeros or texto[k:k+2] == ", " ):
+                        separador = separador + texto[k]
+                        k += 1
+                    
+                    return separador
+                
+
+    @staticmethod
+    def __adaptar_texto(texto: str):
+        separador = prob_estadistica.__detectarSeparador(texto)
+        return texto.replace(separador, " ")
+
     @staticmethod
     def crear_lista_numeros(texto):
         numero_str = ""
         lista_numeros = list()
-
+        texto = prob_estadistica.__adaptar_texto(texto)
         for i in range(len(texto)):
 
-            if(not (texto[i] in [" ", ""])):
+            if(not (texto[i] == " ")):
                 if(texto[i] == ","):
                     numero_str = numero_str + "."
-                else:
+                elif (not texto[i] == '.'):
                     numero_str = numero_str + texto[i]
             else:
                 lista_numeros.append(float(numero_str))
