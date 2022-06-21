@@ -1,0 +1,9 @@
+(c, s) 1/2 posibilidad de que de cara 50%
+
+(1, 2, 3, 4, 5, 6) 3/6 posibilidad de que salga numero mayor igual a 4
+50%
+
+la forma correcta
+(c1, c2, c3, c4, c5, c6, s1, s2, s3, s4, s5, s6)
+
+2/12
